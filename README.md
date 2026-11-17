@@ -12,6 +12,6 @@ Each trade is fully repriced with Black-Scholes along the path spot → vol → 
 - Earnings crossings (12 trades), 0DTE and deep-OTM legs push some quotes to identification limits; where an IV cannot be identified it is frozen, so a zero vol contribution there means "not identified", not "unchanged".
 - Seven trades had no separable market states; one index-option trade was outside model scope. All eight are reported but not attributed.
 
-Data: author's own brokerage records, anonymised; all figures as a percentage of premium. [Method and conventions](method/attribution.md).
+Data: trade records provided by the author, anonymised; all figures as a percentage of premium. [Method and conventions](method/attribution.md).
 
 This is the same step-by-step explain a structured-notes desk runs on its hedge book, applied to my own trades.
